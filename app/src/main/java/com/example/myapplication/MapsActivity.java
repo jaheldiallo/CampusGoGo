@@ -104,7 +104,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             }
         });
 
+
+
     }
+    //Permet de deplacer le joueur sur la carte
     void changePosition(Marker marker, LatLng newLatLng) {
         if (marker == null) { return; }
         ValueAnimator animation = ValueAnimator.ofFloat(0f, 100f);
