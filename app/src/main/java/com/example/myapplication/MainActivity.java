@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
                 intent.setClass(getApplicationContext(),MapsActivity.class);
                 startActivity(intent);
             }
-
         });
 
 

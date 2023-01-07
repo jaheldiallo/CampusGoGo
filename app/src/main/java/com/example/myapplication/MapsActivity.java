@@ -78,7 +78,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(markerP.getPosition(), 17));
         mMap.getUiSettings().setZoomControlsEnabled(true);
-        mMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
+        mMap.getUiSettings().setCompassEnabled(true);
+        //mMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
 
         // Parcours de la liste
         for (int i = 1; i < mListSprites.size(); i++){
