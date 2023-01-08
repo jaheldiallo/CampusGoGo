@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         //Pour que si on clique sur le button on passe 2nd écran
         button = (Button) findViewById(R.id.btn_jouer);
 
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

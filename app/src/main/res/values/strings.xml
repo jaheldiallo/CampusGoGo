@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Campus Go</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="Accueil">ACCUEIL</string>
     <string name="btn_Jouer">JOUER</string>
+    <string name="btn_capture">Capture</string>
 </resources>
